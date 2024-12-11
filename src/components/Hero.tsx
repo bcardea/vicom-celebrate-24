@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Sparkles, PlayCircle, MessageSquare } from 'lucide-react';
+import { VideoModal } from './VideoModal';
 
 export const Hero: React.FC = () => {
+  const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
+
   const scrollToMessage = () => {
     const messageSection = document.getElementById('leadership-message');
     messageSection?.scrollIntoView({ behavior: 'smooth' });
@@ -50,6 +53,7 @@ export const Hero: React.FC = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => setIsVideoModalOpen(true)}
             className="group flex items-center gap-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 w-full md:w-auto"
           >
             <PlayCircle className="w-5 h-5 group-hover:animate-pulse" />
@@ -67,6 +71,12 @@ export const Hero: React.FC = () => {
           </motion.button>
         </div>
       </motion.div>
+
+      <VideoModal
+        isOpen={isVideoModalOpen}
+        onClose={() => setIsVideoModalOpen(false)}
+        videoUrl="https://storage.googleapis.com/msgsndr/MHK41bAGOsh6YKmnFrp7/media/6759c94fda8c391f9840e593.mp4"
+      />
     </div>
   );
 };
