@@ -25,10 +25,11 @@ export const SnowAnimation: React.FC = () => {
             left: snowflake.left,
             width: snowflake.size,
             height: snowflake.size,
-            background: 'white',
+            background: snowflake.id % 3 === 0 ? '#D4AF37' : '#F5F1E8',
             borderRadius: '50%',
             opacity: snowflake.opacity,
             filter: 'blur(1px)',
+            boxShadow: snowflake.id % 3 === 0 ? '0 0 4px rgba(212, 175, 55, 0.5)' : 'none',
             animation: `fall ${snowflake.animationDuration}s linear ${snowflake.delay}s infinite`,
           }}
         />

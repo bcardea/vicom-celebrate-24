@@ -32,11 +32,17 @@ export const RichmondShowcase: React.FC = () => {
     <>
       <motion.button
         onClick={() => setIsOpen(true)}
-        className="mx-auto flex items-center gap-2 bg-white/90 hover:bg-white text-gray-800 px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
+        className="mx-auto flex items-center gap-3 px-8 py-4 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300"
+        style={{
+          background: 'linear-gradient(135deg, var(--color-gold-dark), var(--color-gold))',
+          fontFamily: 'var(--font-display)',
+          fontWeight: 600,
+          color: 'var(--color-forest-dark)',
+        }}
+        whileHover={{ scale: 1.05, boxShadow: 'var(--glow-gold)' }}
+        whileTap={{ scale: 0.98 }}
       >
-        <Building2 className="w-5 h-5" />
+        <Building2 className="w-6 h-6" />
         <span>We opened a brand new facility in Richmond, VA. Click here to take a look!</span>
       </motion.button>
 
