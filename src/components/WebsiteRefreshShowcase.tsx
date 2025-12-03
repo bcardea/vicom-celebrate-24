@@ -8,7 +8,7 @@ export const WebsiteRefreshShowcase: React.FC = () => {
       <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white/10 border border-white/15 text-white/80 mb-6">
         <RefreshCw className="w-5 h-5" />
         <span className="tracking-wide" style={{ fontFamily: 'var(--font-display)' }}>
-          New for 2024
+          New for 2025
         </span>
       </div>
 
@@ -16,12 +16,12 @@ export const WebsiteRefreshShowcase: React.FC = () => {
         className="text-4xl md:text-5xl font-bold text-white mb-4"
         style={{ fontFamily: 'var(--font-display)' }}
       >
-        We refreshed our website this year
+        Our Website Got An Upgrade!
       </h2>
 
       <p className="text-lg text-white/80 max-w-3xl mx-auto mb-8 leading-relaxed">
-        Our new digital home is built to showcase our solutions, people, and customer success stories with
-        a modern, accessible experience. Take a look around and let us know what you think!
+        This year, we refreshed our website to better showcase how we make "Communication, Simplified". We've introduced
+        new interactive tools, customer stories and more! Take a look and let us know what you think!
       </p>
 
       <motion.a

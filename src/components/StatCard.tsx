@@ -66,11 +66,11 @@ export const StatCard: React.FC<StatCardProps> = ({ title, value, icon, delay, s
         ease: [0.22, 1, 0.36, 1],
       }}
       onClick={handleReveal}
-      className="relative group cursor-pointer perspective-1000"
+      className="relative group cursor-pointer perspective-1000 h-full"
     >
       <div
         ref={cardRef}
-        className="relative overflow-hidden glass-effect p-8 rounded-3xl shadow-2xl hover:shadow-[0_20px_80px_rgba(212,175,55,0.3)] transition-all duration-500 border-2"
+        className="relative h-full min-h-[320px] overflow-hidden glass-effect p-8 rounded-3xl shadow-2xl hover:shadow-[0_20px_80px_rgba(212,175,55,0.3)] transition-all duration-500 border-2 flex flex-col"
         style={{
           borderColor: isRevealed ? 'var(--color-gold)' : 'rgba(212, 175, 55, 0.2)',
           transform: isRevealed ? 'scale(1.02)' : 'scale(1)',
@@ -98,7 +98,7 @@ export const StatCard: React.FC<StatCardProps> = ({ title, value, icon, delay, s
           }}
         />
 
-        <div className="relative z-10">
+        <div className="relative z-10 flex flex-col h-full">
           {/* Icon */}
           <motion.div
             className="text-4xl mb-6"
