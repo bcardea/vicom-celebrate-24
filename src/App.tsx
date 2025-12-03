@@ -4,7 +4,7 @@ import { StatCard } from './components/StatCard';
 import { SnowAnimation } from './components/SnowAnimation';
 import { MessageSection } from './components/MessageSection';
 import { Hero } from './components/Hero';
-import { RichmondShowcase } from './components/RichmondShowcase';
+import { WebsiteRefreshFeature } from './components/WebsiteRefreshFeature';
 
 function App() {
   const stats = [
@@ -53,9 +53,9 @@ function App() {
           </div>
         </div>
 
-        {/* Richmond Showcase */}
+        {/* Website Refresh Feature */}
         <div className="px-4 mb-20">
-          <RichmondShowcase />
+          <WebsiteRefreshFeature />
         </div>
 
         {/* Message Section */}
