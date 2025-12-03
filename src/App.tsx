@@ -11,8 +11,8 @@ function App() {
     { title: 'Projects Completed', value: 502, icon: <Briefcase />, delay: 0.3 },
     { title: 'Tickets Served', value: 44173, icon: <Ticket />, delay: 0.5 },
     { title: 'Hours Worked', value: 135659, icon: <Clock />, delay: 0.7 },
-    { title: 'Total Miles Driven', value: 358403, icon: <Car />, delay: 0.9 },
-    { title: 'Charity Miles Walked', value: 23524, icon: <Footprints />, delay: 1.1 },
+    { title: 'Total Miles Driven', value: 456678, icon: <Car />, delay: 0.9 },
+    { title: 'Charity Miles Walked', value: 22710, icon: <Footprints />, delay: 1.1 },
     { title: 'Cookies Baked by Stephanie', value: 4160, icon: <Cookie />, delay: 1.3, suffix: '+' },
   ];
 
@@ -46,7 +46,7 @@ function App() {
 
         {/* Stats Grid */}
         <div className="px-4 mb-20">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto items-stretch">
             {stats.map((stat, index) => (
               <StatCard key={index} {...stat} />
             ))}
