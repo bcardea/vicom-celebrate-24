@@ -63,7 +63,7 @@ export const Hero: React.FC = () => {
             textShadow: '0 4px 30px rgba(212, 175, 55, 0.3)',
           }}
         >
-          Celebrating 2024
+          Celebrating 2025
         </motion.h1>
 
         {/* Decorative line */}
