@@ -46,13 +46,16 @@ export const MessageSection: React.FC = () => {
 
         <div className="space-y-6" style={{ color: 'var(--color-slate)' }}>
           <p className="text-lg md:text-xl leading-relaxed" style={{ fontFamily: 'var(--font-body)' }}>
-            As the year comes to an end, we're filled with genuine gratitude for the trust you've placed in VIcom. Being an employee-owned company means every solution we deliver, every relationship we build, and every success we share carries deep personal meaning for our entire team of employee-owners.
+            As we close out another remarkable year, we want to express our heartfelt appreciation for your continued partnership with VIcom. As an employee-owned company, every project we complete and every relationship we nurture reflects the personal commitment of our entire team of employee-owners.
           </p>
           <p className="text-lg md:text-xl leading-relaxed" style={{ fontFamily: 'var(--font-body)' }}>
-            Throughout this year, we've had the privilege of helping so many organizations thrive while continuing to grow our own community of employee-owners. We exist to help our customers and employees flourish and we're proud of what was accomplished in 2024!
+            2025 has been a year of meaningful growth, both in the innovative solutions we've delivered and in the expansion of our employee-ownership community. Our mission to help customers and employees flourish has never felt more purposeful, and we're grateful for the role you've played in making this year so impactful.
           </p>
           <p className="text-lg md:text-xl leading-relaxed" style={{ fontFamily: 'var(--font-body)' }}>
-            Looking ahead to 2025, we're energized by the possibilities to innovate, serve, and exceed expectations. Your success continues to be the driving force behind everything we do at VIcom. So from all of us here - thank you for choosing VIcom as your technology partner. May your holiday season be filled with joy, and may the New Year bring continued growth and achievement!
+            As we look toward 2026, we're inspired by new opportunities to innovate, collaborate, and continue exceeding your expectations. Your success remains at the heart of everything we do at VIcom.
+          </p>
+          <p className="text-lg md:text-xl leading-relaxed" style={{ fontFamily: 'var(--font-body)' }}>
+            From all of us, thank you for trusting VIcom as your technology partner. We wish you a joyful holiday season and a New Year filled with prosperity and achievement!
           </p>
         </div>
 

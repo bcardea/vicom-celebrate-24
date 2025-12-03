@@ -66,7 +66,7 @@ function App() {
         {/* Footer Image */}
         <div className="w-full max-w-[1400px] mx-auto px-4 pb-8">
           <img
-            src="https://www.vicom-corp.com/wp-content/uploads/2024/12/santavan2rounded3.png"
+            src="https://saltassets.b-cdn.net/santavan2rounded3.png"
             alt="Santa driving VIcom van"
             className="w-full h-auto rounded-2xl"
           />
