@@ -138,7 +138,7 @@ export const Hero: React.FC = () => {
       <VideoModal
         isOpen={isVideoModalOpen}
         onClose={() => setIsVideoModalOpen(false)}
-        videoUrl="https://storage.googleapis.com/msgsndr/MHK41bAGOsh6YKmnFrp7/media/6759c94fda8c391f9840e593.mp4"
+        videoUrl="https://salt-videos.b-cdn.net/Captions_6CB819.MP4"
       />
     </div>
   );
